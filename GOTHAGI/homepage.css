@@ -1,0 +1,149 @@
+#backgroundUtama {
+    background-image: url("./asset/BACKGROUND/START.jpg");
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.judul {
+    width: 600px;
+}
+
+.progress {
+    height: 30px;
+    width: 200px;
+}
+
+.gameStatus {
+    width: 357px;
+    height: 250px;
+}
+
+.btn {
+    border: none;
+}
+
+#avatars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+
+/* .avatars > input {
+  display: none;
+} */
+
+.avatars>input+img {
+    border: 2px solid transparent;
+}
+
+.avatars>input:checked+img {
+    border: 2px solid red;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bungkus {
+    margin-top: 220px;
+}
+
+#avatarSelector img {
+    object-fit: cover;
+}
+
+#avatarSelector {
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    margin-left: 170px;
+}
+
+.carousel-item {
+    -webkit-transition: none;
+    transition: none;
+}
+
+#nama {
+    background-color: #edf7c1;
+    border: none;
+}
+
+#nama {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    text-align: center;
+    max-width: 690px;
+}
+
+#nama:hover {
+    background-color: #fff;
+}
+
+#nama:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+#tombol {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-transform: uppercase;
+}
+
+#tombol:hover {
+    background-color: #fff;
+}
+
+#tombol:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    #tombol {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bungkus {
+        margin-top: 280px;
+    }
+    .carousel-item img {
+        object-fit: cover;
+        margin-left: 120px;
+    }
+}

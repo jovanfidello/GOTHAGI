@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    zoom: 100%;
+}
+
+:root {
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
+}
+
+body {
+    min-width: 412px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #2980b9 !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233498db' fill-opacity='0.45'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat;
+    animation: marquee 30s infinite linear;
+}
+
+@keyframes marquee {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -1190px;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel {
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 300px;
+    }
+}
+
+.sidemenu img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.head {
+    color: white;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, .25);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    max-height: 150px;
+}
+
+.fonty {
+    text-shadow: 1px 1px 2px pink;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.status-box {
+    background: linear-gradient(to left, #4ad8e0, #a8b2f8);
+    border-radius: 50px;
+}
+
+.statLevel p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#barLevel {
+    width: 25%;
+}
+
+#barLapar,
+#barTidur,
+#barMain,
+#barKesehatan {
+    width: 70%;
+    height: 20px;
+    text-align: center;
+    color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#statLapar,
+#statTidur,
+#statMain,
+#statKesehatan {
+    padding: 0;
+}
+
+progress::-moz-progress-bar {
+    background: rgb(68, 255, 71);
+    transition: width 1s ease-in-out;
+}
+
+progress::-webkit-progress-value {
+    background: rgb(68, 255, 71);
+    transition: width 1s ease-in-out;
+}
+
+progress {
+    border: solid black 3px;
+    border-radius: 5px;
+    background: rgb(68, 255, 71);
+    transition: width 1s ease-in-out;
+}
+
+.bar {
+    margin-top: 10px;
+}
+
+.progress-image-icon {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.progress-image-icon-hati {
+    width: 40px;
+}
+
+.progress-image-icon-tidur {
+    width: 40px;
+}
+
+.progress-image-icon-tidur1 {
+    width: 15px;
+    margin-top: 5px;
+}
+
+.progress-image-icon-main {
+    width: 40px;
+}
+
+.progress-image-icon-lapar {
+    width: 40px;
+}
+
+.notif-time-box {
+    padding-bottom: 0;
+}
+
+.notif-time-box marquee {
+    width: 50%;
+    height: 60px;
+}
+
+.menu button {
+    cursor: pointer;
+}
+
+.gameArea {
+    width: 80%;
+    position: relative;
+}
+
+#petBackground {
+    border: solid white 5px;
+    box-sizing: border-box;
+    min-height: 380px;
+    margin: 5px;
+    position: relative;
+}
+
+#pet {
+    max-width: 150px;
+    max-height: 150px;
+    position: absolute;
+    top: 52%;
+    left: 355px;
+}
+
+.z-5 {
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    z-index: 5;
+}
+
+.btn {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.btn:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .btn {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}

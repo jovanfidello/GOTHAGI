@@ -6,25 +6,25 @@ Jovan Fidello (00000067827) <br />
 Joicelyn Naradiska(00000068868) <br />
 
 Aturan Permainan : <br />
-Permainan dimulai ketika pemain mengklik tombol play now. <br />
-Pada tahap awal permainan, pemain dapat  memilih avatar (pet) yang diinginkan dan memasukkan nama pemain. Setelah itu, pemain dapat menekan tombol start. <br />
-Latar belakang (background) dan ucapan salam dalam permainan akan menyesuaikan dengan waktu di dalam permainan. <br />
-Terdapat level pemain di atas status bar yang dimulai dari level 1 yaitu tahap pet masih bayi, ketika pemain mencapai level 7 maka pet akan berevolusi dan ketika pemain mencapai level 15 maka pet akan berevolusi menjadi dewasa. <br />
-Terdapat 4 status bar yang akan menjadi bagian dalam game, yaitu : lapar, tidur, main (tingkat bahagia) dan kesehatan. <br />
-Setiap status bar dapat ditingkatkan dengan menekan tombol sesuai status bar yang ingin ditingkatkan. Contoh  : tombol makan akan meningkatkan status bar lapar. <br />
-Ketika tombol “ makan “ di klik,  maka status bar dari main akan berkurang. <br />
-Ketika tombol “ main “ di klik, maka status bar dari tidur, lapar dan kesehatan menjadi berkurang. <br />
-Ketika tombol “ tidur “ di klik maka status bar dari main akan berkurang sedikit. <br />
-Ketika tombol “ kesehatan “ di klik maka status bar dari main juga akan berkurang sedikit. <br />
-Apabila pet bermain saat status bar tidur dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya. <br />
-Apabila pet bermain saat status bar lapar dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya.<br />
-Apabila pet bermain saat status bar kesehatan dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya.<br />
-Apabila pet tidur saat status bar lapar dibawah setengah bar, maka status bar tidur akan bertambah lebih sedikit daripada biasanya.<br />
-Apabila pemain tidak melakukan aktivitas apapun / tidak menekan tombol apapun maka seluruh status bar akan berkurang secara perlahan dan dinamis. <br />
-Pet akan bertumbuh semakin besar dan bertambah usia apabila pemain aktif dalam menekan tombol aktivitas untuk meningkatkan statusnya.<br />
-Ketika pemain memilih tombol “bermain”, maka akan muncul beberapa ikon bintang yang harus dikumpulkan oleh pet kita dengan menggerakkan / menekan ikon panah.<br />
-Pemain juga dapat melakukan screenshot apabila ingin mengambil foto dari pet yang sudah dipilih.<br />
-Apabila salah satu dari 3 status bar (makan,  main, tidur) telah habis atau kosong maka permainan akan berakhir (game over). <br />
+1. Permainan dimulai ketika pemain mengklik tombol play now. <br />
+2. Pada tahap awal permainan, pemain dapat  memilih avatar (pet) yang diinginkan dan memasukkan nama pemain. Setelah itu, pemain dapat menekan tombol start. <br />
+3. Latar belakang (background) dan ucapan salam dalam permainan akan menyesuaikan dengan waktu di dalam permainan. <br />
+4. Terdapat level pemain di atas status bar yang dimulai dari level 1 yaitu tahap pet masih bayi, ketika pemain mencapai level 7 maka pet akan berevolusi dan ketika pemain mencapai level 15 maka pet akan berevolusi menjadi dewasa. <br />
+5. Terdapat 4 status bar yang akan menjadi bagian dalam game, yaitu : lapar, tidur, main (tingkat bahagia) dan kesehatan. <br />
+6. Setiap status bar dapat ditingkatkan dengan menekan tombol sesuai status bar yang ingin ditingkatkan. Contoh  : tombol makan akan meningkatkan status bar lapar. <br />
+7. Ketika tombol “ makan “ di klik,  maka status bar dari main akan berkurang. <br />
+8. Ketika tombol “ main “ di klik, maka status bar dari tidur, lapar dan kesehatan menjadi berkurang. <br />
+9. Ketika tombol “ tidur “ di klik maka status bar dari main akan berkurang sedikit. <br />
+10. Ketika tombol “ kesehatan “ di klik maka status bar dari main juga akan berkurang sedikit. <br />
+11. Apabila pet bermain saat status bar tidur dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya. <br />
+12. Apabila pet bermain saat status bar lapar dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya.<br />
+13. Apabila pet bermain saat status bar kesehatan dibawah setengah bar, maka status bar main akan bertambah lebih sedikit daripada biasanya.<br />
+14. Apabila pet tidur saat status bar lapar dibawah setengah bar, maka status bar tidur akan bertambah lebih sedikit daripada biasanya.<br />
+15. Apabila pemain tidak melakukan aktivitas apapun / tidak menekan tombol apapun maka seluruh status bar akan berkurang secara perlahan dan dinamis. <br />
+16. Pet akan bertumbuh semakin besar dan bertambah usia apabila pemain aktif dalam menekan tombol aktivitas untuk meningkatkan statusnya.<br />
+17. Ketika pemain memilih tombol “bermain”, maka akan muncul beberapa ikon bintang yang harus dikumpulkan oleh pet kita dengan menggerakkan / menekan ikon panah.<br />
+18. Pemain juga dapat melakukan screenshot apabila ingin mengambil foto dari pet yang sudah dipilih.<br />
+19. Apabila salah satu dari 3 status bar (makan,  main, tidur) telah habis atau kosong maka permainan akan berakhir (game over). <br />
 
 Poin yang sudah dicapai : <br />
 1a Membuat desain tampilan aplikasi yang menarik, responsive dan  memiliki usability yang baik. (15 )<br />

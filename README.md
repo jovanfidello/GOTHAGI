@@ -5,6 +5,9 @@ Linda Sundoko (00000068320) <br />
 Jovan Fidello (00000067827) <br />
 Joicelyn Naradiska(00000068868) <br />
 
+Link Github : <br />
+(https://github.com/jovanfidello/GOTHAGI) <br />
+
 Deskripsi Game : <br />
 Gothagi merupakan permainan simulasi kehidupan hewan peliharaan yang terinspirasi oleh game lama bernama Tamagotchi. <br />
 Pada game ini kita diawali dengan memilih avatar hewan peliharan yang kita inginkan dan ,< br/> 

@@ -1,6 +1,6 @@
 # GOTHAGI
 Kelompok 4 
-Anggota
+Anggota: 
 Linda Sundoko (00000068320)
 Jovan Fidello (00000067827)
 Joicelyn Naradiska(00000068868)

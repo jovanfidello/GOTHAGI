@@ -40,16 +40,16 @@ Aturan Permainan : <br />
 29. Apabila salah satu dari 4 status bar (makan,  main, tidur, dan obat) telah habis atau kosong maka permainan akan berakhir (game over). <br />
 
 Poin yang sudah dicapai : <br />
-1a Membuat desain tampilan aplikasi yang menarik, responsive dan  memiliki usability yang baik. (15 )<br />
-1b Komponen tampilan yang menarik (avatar, gambar, icon, dll) (15)<br />
-2a Membuat fitur pemilihan avatar di awal permainan (7)<br />
-2b Membuat fitur simulasi jam permainan (7)<br />
-2c Membuat fitur salam: menampilkan salam sesuai dengan waktu dan menampilkan nama pemain (7)<br />
-2d Membuat fitur pengurangan status pemain secara dinamis ketika pemain sedang idle atau tidak melakukan aktivitas apapun. (7)<br />
-2e Membuat fitur penambahan dan pengurangan status ketika melakukan aktivitas tertentu (7)<br />
-2f Membuat fitur latar belakang yang disesuaikan dengan jam permainan (8)<br />
-2g Membuat fitur bermain untuk hewan peliharaan (Walau tidak terdapat poin in, tapi kami berinisiatif membuat alternatif yaitu dengan membuat hewan dapat bergerak dinamis ke kiri dan ke kanan serta hewan peliharan juga bisa lompat-lompat) (8)<br />
-3 Membuat fitur permainan tambahan diluar poin yang sudah disebutkan sebelumnya dan/atau membuat aturan gameplay yang menarik dan kompleks (15)<br />
+1a. Membuat desain tampilan aplikasi yang menarik, responsive dan  memiliki usability yang baik. (15 )<br />
+1b. Komponen tampilan yang menarik (avatar, gambar, icon, dll) (15)<br />
+2a. Membuat fitur pemilihan avatar di awal permainan (7)<br />
+2b. Membuat fitur simulasi jam permainan (7)<br />
+2c. Membuat fitur salam: menampilkan salam sesuai dengan waktu dan menampilkan nama pemain (7)<br />
+2d. Membuat fitur pengurangan status pemain secara dinamis ketika pemain sedang idle atau tidak melakukan aktivitas apapun. (7)<br />
+2e. Membuat fitur penambahan dan pengurangan status ketika melakukan aktivitas tertentu (7)<br />
+2f. Membuat fitur latar belakang yang disesuaikan dengan jam permainan (8)<br />
+2g. Membuat fitur bermain untuk hewan peliharaan (Walau tidak terdapat poin in, tapi kami berinisiatif membuat alternatif yaitu dengan membuat hewan dapat bergerak dinamis ke kiri dan ke kanan serta hewan peliharan juga bisa lompat-lompat) (8)<br />
+3. Membuat fitur permainan tambahan diluar poin yang sudah disebutkan sebelumnya dan/atau membuat aturan gameplay yang menarik dan kompleks (15)<br />
 
 Fitur Tambahan : <br />
 1. Ada tombol yang bisa di klik untuk mute musik dan jika diklik lagi maka musik akan menyala lagi<br />
